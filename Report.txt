@@ -1,0 +1,822 @@
+╰─❯ cat scan_report_1766674039.txt
+================================================================================
+NIGHT-CRAWLER v5.0 - ADVANCED VULNERABILITY REPORT
+================================================================================
+
+Target: https://theoriginals.io
+Scan Date: 2025-12-25 21:47:19
+
+CRITICAL/HIGH VULNERABILITIES:
+------------------------------------------------------------
+[CRITICAL] RCE
+  Location: https://theoriginals.io
+  Description: Command Injection / RCE Detected
+  Payload: ;id;...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=2
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=admin
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=0
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=1
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=admin
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=0
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=1
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=2
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=admin
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with id=0
+  Payload: Parameter: id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=2
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=admin
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=0
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=1
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=admin
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=0
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=1
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=2
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=admin
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with user_id=0
+  Payload: Parameter: user_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=2
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=admin
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=0
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=1
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=admin
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=0
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=1
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=2
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=admin
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uid=0
+  Payload: Parameter: uid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=2
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=admin
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=0
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=1
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=admin
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=0
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=1
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=2
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=admin
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with doc_id=0
+  Payload: Parameter: doc_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=2
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=admin
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=0
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=1
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=admin
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=0
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=1
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=2
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=admin
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file_id=0
+  Payload: Parameter: file_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=2
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=admin
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=0
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=1
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=admin
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=0
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=1
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=2
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=admin
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with order_id=0
+  Payload: Parameter: order_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=2
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=admin
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=0
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=1
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=admin
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=0
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=1
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=2
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=admin
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with account_id=0
+  Payload: Parameter: account_id...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=1
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=2
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=admin
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=0
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=1
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=2
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=admin
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with uuid=0
+  Payload: Parameter: uuid...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=2
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=admin
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=0
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=1
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=admin
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=0
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=1
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=2
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=admin
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with num=0
+  Payload: Parameter: num...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=2
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=admin
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=0
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=1
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=admin
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=0
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=1
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=2
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=admin
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with page=0
+  Payload: Parameter: page...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=2
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=admin
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=0
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=1
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=admin
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=0
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=1
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=2
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=admin
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with index=0
+  Payload: Parameter: index...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=1
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=2
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=admin
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=0
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=1
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=2
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=admin
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=0
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=1
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=2
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=admin
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with file=0
+  Payload: Parameter: file...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=1
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=2
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=admin
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=0
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=1
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=2
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=admin
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with filename=0
+  Payload: Parameter: filename...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=1
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=2
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=admin
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=0
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=1
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=2
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=admin
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=0
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=1
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=2
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=admin
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with api_key=0
+  Payload: Parameter: api_key...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=1
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=2
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=admin
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=0
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=1
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=2
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=admin
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=0
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=1
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=2
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=admin
+  Payload: Parameter: token...
+
+[HIGH] IDOR
+  Location: https://theoriginals.io
+  Description: Potential IDOR: Accessible resource with token=0
+  Payload: Parameter: token...
+
+[CRITICAL] IDOR
+  Location: https://theoriginals.io/users/1
+  Description: Sequential ID Access Vulnerability
+  Payload: Accessed: https://theoriginals.io/users/101...
+
+[CRITICAL] IDOR
+  Location: https://theoriginals.io/users/2
+  Description: Sequential ID Access Vulnerability
+  Payload: Accessed: https://theoriginals.io/users/102...
+
+[CRITICAL] IDOR
+  Location: https://theoriginals.io/users/3
+  Description: Sequential ID Access Vulnerability
+  Payload: Accessed: https://theoriginals.io/users/103...
+
+[CRITICAL] IDOR
+  Location: https://theoriginals.io/profile/1
+  Description: Sequential ID Access Vulnerability
+  Payload: Accessed: https://theoriginals.io/profile/101...
+
+[CRITICAL] IDOR
+  Location: https://theoriginals.io/profile/2
+  Description: Sequential ID Access Vulnerability
+  Payload: Accessed: https://theoriginals.io/profile/102...
+
+[CRITICAL] IDOR
+  Location: https://theoriginals.io/document/1
+  Description: Sequential ID Access Vulnerability
+  Payload: Accessed: https://theoriginals.io/document/101...
+
+[CRITICAL] IDOR
+  Location: https://theoriginals.io/document/2
+  Description: Sequential ID Access Vulnerability
+  Payload: Accessed: https://theoriginals.io/document/102...
+
+ADMIN PANELS DISCOVERED:
+------------------------------------------------------------
+- https://dashboard.theoriginals.io
+RECOMMENDATIONS:
+------------------------------------------------------------
+1. Patch critical vulnerabilities immediately
+2. Implement proper input validation
+3. Add CSRF tokens to all forms
+4. Restrict access to admin panels
+5. Implement rate limiting
+6. Conduct manual penetration testing
+7. Regular security audits
